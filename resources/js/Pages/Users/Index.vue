@@ -42,11 +42,9 @@
 </template>
 
 <script setup>
-    import Pagination from "../../Shared/Pagination";
     import { ref, watch } from "vue";
     import { router } from '@inertiajs/vue3';
     import debounce from "lodash/debounce";
-
 
     let props = defineProps({
         users: Object,
